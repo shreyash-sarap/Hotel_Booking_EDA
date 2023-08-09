@@ -1,8 +1,7 @@
 # Hotel_Booking_EDA
-Exploration and Analysis of a Hotel Booking Dataset
+Exploration and Analysis Hotel Booking Dataset
 
 Project Overview:
-
 Importing Libraries and Loading Data:
 
 Imported necessary libraries: NumPy, Pandas, Seaborn, Matplotlib. Suppressed warnings for cleaner output. Loaded hotel booking dataset from a CSV file into a Pandas DataFrame. Exploratory Data Analysis and Data Cleaning:
