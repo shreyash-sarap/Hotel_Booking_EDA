@@ -1,5 +1,5 @@
 # Hotel_Booking_EDA
-In-depth Exploration and Analysis of a Hotel Booking Dataset
+Exploration and Analysis of a Hotel Booking Dataset
 
 Project Overview:
 
