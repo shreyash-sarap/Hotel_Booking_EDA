@@ -1,52 +1,41 @@
-# Hotel_Booking_EDA
-Exploration and Analysis Hotel Booking Dataset
+# Hotel Booking EDA
 
-Project Overview:
-Importing Libraries and Loading Data:
+## Exploration and Analysis of Hotel Booking Dataset
 
-Imported necessary libraries: NumPy, Pandas, Seaborn, Matplotlib. Suppressed warnings for cleaner output. Loaded hotel booking dataset from a CSV file into a Pandas DataFrame. Exploratory Data Analysis and Data Cleaning:
+### Project Overview
 
-Examined the first 10 rows of the dataset using head(10). Obtained dataset information (data types, missing values) using info(). Determined dataset dimensions with shape and displayed column names with columns. Converted 'reservation_status_date' column to datetime format. Iterated over categorical columns to display unique values. Dropped 'company' and 'agent' columns using drop(). Removed rows with missing values using dropna(). Data Analysis and Visualizations:
+This project focuses on exploring and analyzing a Hotel Booking Dataset to gain insights into factors influencing reservation cancellations and related patterns.
 
-Calculated percentage of canceled and not canceled reservations using value_counts(normalize=True). Created bar plots to visualize reservation status distribution. Used count plots to examine cancellation rates based on factors: hotel type, customer type, arrival date month. Generated line plots for Average Daily Rate (ADR) trends over time for resort and city hotels. Visualized cancellations based on ADR using line plots. Utilized pie charts to identify top 10 countries with highest numbers of canceled reservations. Analyzed reservations based on market segment using count plots. Time-Based Visualizations and Insights:
+### Importing Libraries and Loading Data
 
-Created line plots to visualize ADR trends over time for both resort and city hotels. Applied filtering for specific time periods in ADR trend visualizations. This project encompassed loading, cleaning, and exploring a hotel booking dataset, followed by generating various visualizations to gain deeper insights into factors influencing reservation cancellations and related patterns.
+- Imported necessary libraries: NumPy, Pandas, Seaborn, Matplotlib.
+- Suppressed warnings for cleaner output.
+- Loaded the hotel booking dataset from a CSV file into a Pandas DataFrame.
 
-Importing Libraries and Loading Data:
+### Exploratory Data Analysis and Data Cleaning
 
-Imported necessary libraries: NumPy, Pandas, Seaborn, Matplotlib. Suppressed warnings for cleaner output. Loaded hotel booking dataset from a CSV file into a Pandas DataFrame. Exploratory Data Analysis and Data Cleaning:
+- Examined the first 10 rows of the dataset using `head(10)`.
+- Obtained dataset information (data types, missing values) using `info()`.
+- Determined dataset dimensions with `shape` and displayed column names with `columns`.
+- Converted the 'reservation_status_date' column to datetime format.
+- Iterated over categorical columns to display unique values.
+- Dropped 'company' and 'agent' columns using `drop()`.
+- Removed rows with missing values using `dropna()`.
 
-Examined the first 10 rows of the dataset using head(10). Obtained dataset information (data types, missing values) using info(). Determined dataset dimensions with shape and displayed column names with columns. Converted 'reservation_status_date' column to datetime format. Iterated over categorical columns to display unique values. Dropped 'company' and 'agent' columns using drop(). Removed rows with missing values using dropna(). Data Analysis and Visualizations:
+### Data Analysis and Visualizations
 
-Calculated percentage of canceled and not canceled reservations using value_counts(normalize=True). Created bar plots to visualize reservation status distribution. Used count plots to examine cancellation rates based on factors: hotel type, customer type, arrival date month. Generated line plots for Average Daily Rate (ADR) trends over time for resort and city hotels. Visualized cancellations based on ADR using line plots. Utilized pie charts to identify top 10 countries with highest numbers of canceled reservations. Analyzed reservations based on market segment using count plots. Time-Based Visualizations and Insights:
+- Calculated the percentage of canceled and not canceled reservations using `value_counts(normalize=True)`.
+- Created bar plots to visualize the distribution of reservation statuses.
+- Used count plots to examine cancellation rates based on factors: hotel type, customer type, arrival date month.
+- Generated line plots for Average Daily Rate (ADR) trends over time for resort and city hotels.
+- Visualized cancellations based on ADR using line plots.
+- Utilized pie charts to identify the top 10 countries with the highest numbers of canceled reservations.
+- Analyzed reservations based on market segment using count plots.
 
-Created line plots to visualize ADR trends over time for both resort and city hotels. Applied filtering for specific time periods in ADR trend visualizations. This project encompassed loading, cleaning, and exploring a hotel booking dataset, followed by generating various visualizations to gain deeper insights into factors influencing reservation cancellations and related patterns.
+### Time-Based Visualizations and Insights
 
-Importing Libraries and Loading Data:
+- Created line plots to visualize ADR trends over time for both resort and city hotels.
+- Applied filtering for specific time periods in ADR trend visualizations.
 
-Imported necessary libraries: NumPy, Pandas, Seaborn, Matplotlib.
-Suppressed warnings for cleaner output.
-Loaded hotel booking dataset from a CSV file into a Pandas DataFrame.
-Exploratory Data Analysis and Data Cleaning:
-
-Examined the first 10 rows of the dataset using head(10).
-Obtained dataset information (data types, missing values) using info().
-Determined dataset dimensions with shape and displayed column names with columns.
-Converted 'reservation_status_date' column to datetime format.
-Iterated over categorical columns to display unique values.
-Dropped 'company' and 'agent' columns using drop().
-Removed rows with missing values using dropna().
-Data Analysis and Visualizations:
-
-Calculated percentage of canceled and not canceled reservations using value_counts(normalize=True).
-Created bar plots to visualize reservation status distribution.
-Used count plots to examine cancellation rates based on factors: hotel type, customer type, arrival date month.
-Generated line plots for Average Daily Rate (ADR) trends over time for resort and city hotels.
-Visualized cancellations based on ADR using line plots.
-Utilized pie charts to identify top 10 countries with highest numbers of canceled reservations.
-Analyzed reservations based on market segment using count plots.
-Time-Based Visualizations and Insights:
-
-Created line plots to visualize ADR trends over time for both resort and city hotels.
-Applied filtering for specific time periods in ADR trend visualizations.
 This project encompassed loading, cleaning, and exploring a hotel booking dataset, followed by generating various visualizations to gain deeper insights into factors influencing reservation cancellations and related patterns.
+
